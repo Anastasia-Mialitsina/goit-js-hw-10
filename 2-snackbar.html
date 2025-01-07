@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Promise Generator</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <script type="module" crossorigin src="/goit-js-hw-10/2-snackbar.js"></script>
+  <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/style-Bd7pO_k7.js">
+  <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/vendor-BbbuE1sJ.js">
+  <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/style-BSBAmhYy.css">
+  <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/vendor-CZjNVMTf.css">
+</head>
+<body>
+  <form class="form">
+    <label class="label">
+      Delay (ms)
+      <input class="form-input" type="number" name="delay" required />
+    </label>
+
+    <fieldset class="fieldset">
+      <legend class="legend">State</legend>
+      <label>
+        <input class="fieldset-input" type="radio" name="state" value="fulfilled" required />
+        Fulfilled
+      </label>
+      <label>
+        <input class="fieldset-input" type="radio" name="state" value="rejected" required />
+        Rejected
+      </label>
+    </fieldset>
+
+    <button class="form-button" type="submit">Create notification</button>
+  </form>
+
+  <script src="https://cdn.jsdelivr.net/npm/izitoast/dist/js/iziToast.min.js"></script>
+</body>
+</html>
