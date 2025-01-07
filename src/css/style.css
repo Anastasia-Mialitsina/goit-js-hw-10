@@ -1,0 +1,91 @@
+input { 
+width: 272px;
+height: 40px;
+border-color: 4px solid #cfcfcf;
+box-shadow: none;
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.04em;
+}
+input:hover {
+border-color: 4px solid #2E2F42;  
+}
+input:active {
+border-color: 4px solid #4E75FF;
+}
+input:disabled {
+border-color: 4px solid #cfcfcf;   
+}
+button {
+border-radius: 8px;
+padding: 8px 16px;
+width: 75px;
+height: 40px;
+background: #4E75FF;
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.04em;
+color: #fff;
+border: none;
+cursor: pointer;
+}
+button:disabled {
+background: #cfcfcf;
+}
+button:hover {
+background-color: #6C8CFF;   
+}
+.timer {
+display: flex;
+margin-top: 32px;
+width: 346px;
+height: 72px;
+gap: 24px;
+}
+.field {
+width: 55px;
+height: 72px;
+display: flex;
+flex-direction: column;
+}
+.value {
+width: 55px;
+height: 48px;
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 40px;
+line-height: 120%;
+letter-spacing: 0.04em;
+color: #2e2f42;
+align-items: center;
+}
+.label {
+width: 44px;
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #2e2f42;
+}
+.flatpickr-day.today {
+border-color: #4E75FF !important;  
+background-color: none !important;
+color: #111 !important;
+}
+.flatpickr-day:hover {
+background-color: #c1c1c1 !important;
+}
+.flatpickr-day.selected {
+background-color: #4E75FF !important;
+border-color: none !important;
+}
+
+   
+
+
+
+
