@@ -84,16 +84,3 @@ function convertMs(ms) {
 
   return { days, hours, minutes, seconds };
 }
-// styles //
-iziToast.show({
-  title: "Error",
-  message: "Illegal operation",
-  color: "red",
-  position: "topRight",
-  timeout: 5000,
-  titleColor: "#fff",
-  messageColor: "#fff",
-  backgroundColor: "#EF4040",
-  icon: "fas fa-times",
-  iconColor: "#fff",
-});
